@@ -8,7 +8,7 @@ $movies=[
 
 foreach ($movies as $name => $actors ){	
 echo "Dans le film "." ". "\"$name \"," ." "."les principaux acteurs sont : " . "\n" ;
-foreach ($actors as $actor) echo "-$actor"."\n";
+foreach ($actors as $actor){ echo " $actor,"  ;} 
 echo "\n";
 }
 
