@@ -9,5 +9,6 @@ function writeSecretSentence(string $parametre_1 , string $parametre_2):string
 }
 
 echo writeSecretSentence("L'âne","l'arbre");
+//affiche " L'âne s'incline face à l'arbre "
 
 ?>
